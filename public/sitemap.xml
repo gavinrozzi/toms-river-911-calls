@@ -3,43 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://tomsriver911.ocscanner.news/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://tomsriver911.ocscanner.news/about/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://tomsriver911.ocscanner.news/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/contact/</loc>
+    <loc>https://tomsriver911.ocscanner.news/contact/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/contact.es/</loc>
-  </url>
-  
-  <url>
-    <loc>https://example.com/en/</loc>
+    <loc>https://tomsriver911.ocscanner.news/en/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/contact.de/</loc>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://tomsriver911.ocscanner.news/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://tomsriver911.ocscanner.news/</loc>
     <priority>0</priority>
   </url>
   
