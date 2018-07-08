@@ -2,33 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Toms River 911 Call Explorer</title>
-    <link>https://tomsriver911.ocscanner.news/</link>
+    <link>https://gohugo-amp.gohugohq.com/</link>
     <description>Recent content on Toms River 911 Call Explorer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>A Rozzi Media Group Website</copyright>
+    <lastBuildDate>Sun, 20 Nov 2016 14:28:41 +0200</lastBuildDate>
     
-	<atom:link href="https://tomsriver911.ocscanner.news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gohugo-amp.gohugohq.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://tomsriver911.ocscanner.news/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomsriver911.ocscanner.news/about/</guid>
-      <description>This website shows Toms River 911 calls.
-This is VERY BETA and things will break as we develop this further.
-Contact Gavin Rozzi with any questions</description>
-    </item>
     
     <item>
-      <title>Contact</title>
-      <link>https://tomsriver911.ocscanner.news/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Toms River 911 Call Explorer</title>
+      <link>https://gohugo-amp.gohugohq.com/</link>
+      <pubDate>Sun, 20 Nov 2016 14:28:41 +0200</pubDate>
       
-      <guid>https://tomsriver911.ocscanner.news/contact/</guid>
-      <description>Contact us!</description>
+      <guid>https://gohugo-amp.gohugohq.com/</guid>
+      <description>Toms River 911 Call Explorer Version 1.2 This website helps visualize 911 call data for Toms River, New Jersey. It uses data from OPRAmachine to display columns of data obtained using a public records request. This site was created by Gavin Rozzi for Ocean County Scanner News. If you find this website useful, consider supporting Gavin on Patreon. LocationNameDetailsPriorityplaceaddress &amp;nbsp; city, statedescriptionunitsdetailsresponsesROUTE 37 E &amp;amp; CLIFTON AVE &amp;nbsp; TOMS RIVER, NJTRAF CRASH INJM367Comments: 2 cars 2 head injuries both cons out of the vehicle 07:02:19 05/01/2018 Rhoads, A.</description>
     </item>
     
   </channel>

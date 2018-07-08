@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://tomsriver911.ocscanner.news/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tomsriver911.ocscanner.news/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomsriver911.ocscanner.news/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tomsriver911.ocscanner.news/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomsriver911.ocscanner.news/en/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tomsriver911.ocscanner.news/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tomsriver911.ocscanner.news/</loc>
-    <priority>0</priority>
-  </url>
-  
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>https://gohugo-amp.gohugohq.com/</loc>
+        <lastmod>2016-11-20T14:28:41+02:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+    
+    <url>
+        <loc>https://gohugo-amp.gohugohq.com/categories/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+        <priority>0</priority>
+    </url>
+    
+    <url>
+        <loc>https://gohugo-amp.gohugohq.com/tags/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+        <priority>0</priority>
+    </url>
+    
+    <url>
+        <loc>https://gohugo-amp.gohugohq.com/</loc>
+        <lastmod>2016-11-20T14:28:41+02:00</lastmod>
+        <priority>0</priority>
+    </url>
+    
 </urlset>

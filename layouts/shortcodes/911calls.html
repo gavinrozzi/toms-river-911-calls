@@ -1,0 +1,26 @@
+<table>
+    <thead>
+      <tr>
+      <th>Location</th>
+      <th>Name</th>
+      <th>Details</th>
+      <th>Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{ $url := "https://opramachine.com/request/1890/response/3627/attach/2/Actove%20911%20Request%2006.18.18.csv.txt" }}
+    {{ $sep := "," }}
+    {{ range $i, $r := getCSV $sep $url }}
+      <tr>
+        <td>
+            <strong>{{ index $r 7 }}</strong>
+            <a href="https://www.google.com/maps/search/?api=1&query={{ index $r 13 }},{{ index $r 14 }}">{{ index $r 8 }} &nbsp; {{ index $r 11 }}, {{ index $r 12 }}</a></td>
+        <td>{{ index $r 4 }}</td>
+        <td>{{ index $r 17 }}</td>
+        <td>{{ index $r 5 }}</td>
+        <td>{{ index $r 23 }}</td>
+        
+      </tr>
+    {{ end }}
+    </tbody>
+  </table>

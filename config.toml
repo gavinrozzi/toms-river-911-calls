@@ -1,67 +1,25 @@
-baseurl = "https://tomsriver911.ocscanner.news/"
-title = "Toms River 911 Call Explorer"
+baseurl = "https://gohugo-amp.gohugohq.com/"
 languageCode = "en-us"
-
-# Pagination
-paginate = 3
-paginatePath = "page"
-
-# Theme to use
-theme = "hugo-bootstrap"
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-
-# Google analytics
-googleAnalytics = ""
-
-# Languages
-
-defaultContentLanguage = "en"
-
-[languages.en]
-  languageName = "English"
-
-  # Replace the default footer message with a localized message
-  copyright = "A Rozzi Media Group Website"
-
-  [[languages.en.menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
-  [[languages.en.menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 2
-  [[languages.en.menu.main]]
-    url = "/contact/"
-    name = "Contact"
-    weight = 3
-
-# Links format
-
-[permalinks]
-  post = "/:year/:month/:title/"
+title = "Toms River 911 Call Explorer"
+theme = "gohugo-amp"
+enableRobotsTXT = true
 
 [params]
-  # Main sections (currently used for the recent posts in the sidebar)
-  mainSections = ["post"]
-
-  # Default author
-  author = "John Doe"
-
-  # Date format (default: Jan 2, 2006)
-  # date_format = "Jan 2, 2006"
-
-  # Display post summaries instead of content in list templates (default: true)
-  # truncate = false
-
-    # Whether to show the recent posts or not (default: true)
-    # showRecent = false
-
-    # Whether to show the taxonomies or not (default: true)
-    # showTaxonomy = false
-
-    # How many posts to show on the sidebar (Default: 5)
-    # num_recent_posts = 5
+    amp = true
+    ampElements = ["amp-accordion","amp-ad","amp-analytics","amp-app-banner","amp-carousel","amp-iframe","amp-dynamic-css-classes","amp-form","amp-fx-flying-carpet","amp-image-lightbox","amp-lightbox","amp-sidebar","amp-social-share","amp-sticky-ad","amp-user-notification"]
+    themeColor = "#ff1d55"
+    adsensePublisher = "ca-pub-123456789"
+    googleAnalytics = "UA-12345678-123"
+    appleItunesApp = "app-id=123456789, app-argument=app-name://link/to/app-content"
+    ampManifest = "/amp-manifest.json"
+    alternatePageName = "TR 911"
+    organizationLogo = "https://gohugo-amp.gohugohq.com/logo.png"
+    organizationName = "gohugohq.com"
+    organizationAddress = "Some Street 123, 12345 City"
+    socialProfiles = ["http://www.facebook.com/your-profile","http://instagram.com/yourProfile","http://www.linkedin.com/in/yourprofile","http://plus.google.com/your_profile"]
+    publisherName = "Rozzi Media Group"
+    publisherLogo = "https://gohugo-amp.gohugohq.com/logo-publisher.png" # https://developers.google.com/search/docs/data-types/articles#logo-guidelines
+    publisherLogoWidth = 600
+    publisherLogoHeight = 60
+    stylesheetRegular = ["/base-styling.css"] # these styles are used when amp is disabled for a specific page
+    javascriptRegular = ["/script.js"] # these scripts are used when amp is disabled for a specific page
